@@ -1,0 +1,160 @@
+Q1
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var x, y, z int
+	var resultado int
+	fmt.Print("Me informe 3 números inteiros:")
+	fmt.Scan(&x)
+	fmt.Scan(&y)
+	fmt.Scan(&z)
+	resultado = x + y + z
+	fmt.Println("A soma entre esses números é: ", resultado)
+}
+
+q2 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	var x int
+	var dobro int
+	var triplo int
+	var quadrípulo int
+	fmt.Print("Me informe um número inteiro:")
+	fmt.Scan(&x)
+	dobro = x + x
+	triplo = x * 3
+	quadrípulo = x * 4
+	fmt.Println("O dobro, o triplo e o quadrípulo desse número é: ", dobro, triplo, quadrípulo)
+
+}
+
+q3 
+package main
+
+import "fmt"
+
+func main() {
+
+	var peso, altura float64
+	fmt.Print("Me informe seu peso e sua altura: ")
+	fmt.Scan(&peso)
+	fmt.Scan(&altura)
+	quadrado := altura * altura
+	imc := peso / quadrado
+	fmt.Println("O seu IMC é: ", imc)
+}
+
+q4
+package main
+
+import "fmt"
+
+func main() {
+
+	var x, y, z int
+	fmt.Print("Me informe 3 números: ")
+	fmt.Scan(&x, y, z)
+	mediap := x*2 + y*3 + z*5/x + y + z
+	fmt.Println("A média ponderada entre eles é: ", mediap)
+}
+
+q5
+package main
+
+import "fmt"
+
+func main() {
+
+	var idade int
+	fmt.Print("Qual a tua idade?")
+	fmt.Scan(&idade)
+	dias := idade * 365
+	fmt.Print("Você tem ", dias, "dias de idade")
+}
+
+q6
+package main
+
+import "fmt"
+
+func main() {
+
+	var salario float64
+	fmt.Println("Qual o salário do funcionário?")
+	fmt.Scan(&salario)
+	aumentado := salario * 0.15
+	novo := salario + aumentado
+	fmt.Print("Com um aumento de 15%, o salário dele fica: ", novo)
+}
+
+q7
+package main
+
+import "fmt"
+
+func main() {
+
+	var x int
+	fmt.Print("Me informe um número inteiro:")
+	fmt.Scan(&x)
+	antecessor := x - 1
+	sucessor := x + 1
+	fmt.Println("O antecessor de ", x, "é ", antecessor, " e o sucessor dele é ", sucessor)
+}
+
+q8
+package main
+
+import "fmt"
+
+func main() {
+
+	var y int
+	var x int
+	fmt.Print("Qual o valor da diária?")
+	fmt.Scan(&x)
+	fmt.Print("Quantos dias o funcionário trabalhou?")
+	fmt.Scan(&y)
+	salário := x * y
+	fmt.Println("O salário desse funcionário é: ", salário)
+}
+
+Q9
+package main
+
+import "fmt"
+
+func main() {
+
+	var preço float64
+	fmt.Println("Qual o preço do produto?")
+	fmt.Scan(&preço)
+	desconto := preço * 0.10
+	newvalor := preço - desconto
+	fmt.Println("Com um desconto de 10%, o novo valor desse produto fica: ", newvalor)
+}
+
+Q10
+package main
+
+import "fmt"
+
+func main() {
+
+	var kilos float64
+	fmt.Println("Qual o seu peso em kilos?")
+	fmt.Scan(&kilos)
+	libras := kilos * 2.20462
+	fmt.Print("Seu peso em libras é: ", libras)
+}
