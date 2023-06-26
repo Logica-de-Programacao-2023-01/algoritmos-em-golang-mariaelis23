@@ -1,0 +1,111 @@
+q1
+
+var x int
+var y int
+fmt.print("Me informe 2 números inteiros")
+fmt.Scan(&x)
+fmt.Scan(&y)
+	if x > y{
+	fmt.print(x, "é o maior número") 
+	} else { fmt.print(y, "é o maior número")
+
+
+q3
+
+var x int
+fmt.print("Me informe um númerp inteiro")
+	fmt.Scan(&x)
+	if x%2 == 0 {	
+	fmt.print("Esse número é par")
+	} else { 
+	fmt.print("Esse número é impar")
+
+
+q4
+
+var peso, altura float64
+	fmt.Print("Me informe seu peso e sua altura: ")
+	fmt.Scan(&peso)
+	fmt.Scan(&altura)
+	quadrado := altura * altura
+	imc := peso / quadrado
+	fmt.Println("O seu IMC é: ", imc)
+}
+
+
+q5
+
+var r int
+	if r%5 == 0
+	   r%3 == 0  {
+	fmt.print("O número é múltiplo de 3 e de 5")
+	} else { return false
+
+q6
+
+var x, z int
+	result := x*z
+	return result
+}
+
+q7
+
+var salario float64
+	fmt.print("Qual o salário?")
+	fmt.Scan(&salario)
+	
+	novo := salario + salario*0,10
+	fmt.print("O novo salário é", novo)
+}
+
+q8
+
+var x int
+	fmt.print("Me informe um número de 1 a 7")
+	fmt.Scan(&x)
+	if x == 1 {
+	return fmt.print("Domingo")}
+	if x == 2 {
+	return fmt.print("Segunda-feira")}
+        if x == 3 {
+	return fmt.print("Terça-feira")}
+	if x == 4 {
+	return fmt.print("Quarta-feira")}
+	if x == 5 {
+	return fmt.print("Quinta-feira")}
+	if x == 6 {
+	return fmt.print("Sexta-feira")}
+	if x == 7 {
+	return fmt.print("Sábado")}
+}
+
+
+q9 
+	(com 3 não consigo, então fiz só com 2)
+
+var x, y int
+	fmt.print("Me informe dois números")
+	fmt.Scan(&x)
+	fmt.Scan(&y)
+	if x < y {
+	fmt.print(x, "é maior que" , y)
+	} else {
+	fmt.print(y, "é maior que" , x)
+
+ 
+q10
+
+var idade int
+	fmt.print("Me informe sua idade")
+	if idade <= 9 {
+return fmt.print("mirim")
+
+	} if 10 <= idade <=13 {
+return fmt.print("infantil")
+	} if 14 <= idade <=17
+ {
+return fmt.print("juvenil")
+
+	}if idade > 18 {
+
+return fmt.print("adulto")}
